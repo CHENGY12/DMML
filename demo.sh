@@ -1,0 +1,20 @@
+python train.py \
+--dataset='market1501' \
+--dataset_root='<DATASET_ROOT>' \
+--exp_root='./exp/dmml/market1501' \
+--lr=2e-4 \
+--num_epochs=1200 \
+--lr_decay_start_epoch=600 \
+--weight_decay=1e-4 \
+--num_classes=32 \
+--distance_mode='hard_mining' \
+--num_support=5 \
+--num_query=1 \
+--margin=0.4 \
+--img_height=256 \
+--img_width=128 \
+--num_workers=8 \
+--gpu='0, 1' \
+--random_erasing \
+--remove_downsample \
+--cuda
