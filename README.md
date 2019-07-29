@@ -25,5 +25,15 @@ python eval.py
 ```
 which will output Rank-1, Rank-5, Rank-10 and mAP scores.
 
-## Citation
-=======
+### Citation
+Please use the citation provided below if it is useful to your research:
+
+Guangyi Chen, Tianren Zhang, Jiwen Lu, and Jie Zhou, Deep Meta Metric Learning, ICCV, 2019.
+```bash
+@inproceedings{chen2019deep,
+  title={Deep Meta Metric Learning},
+  author={Chen, Guangyi and Zhang, Tianren and Lu, Jiwen and Zhou, Jie},
+  booktitle={ICCV},
+  year={2019}
+}
+```
