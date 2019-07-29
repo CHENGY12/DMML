@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Deep Meta Metric Learning (DMML)
 This repo contains PyTorch code for ICCV19' paper: Deep Meta Metric Learning, including person re-identification experiments on Market-1501 and DukeMTMC-reID datasets.
 
