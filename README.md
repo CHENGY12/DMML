@@ -27,5 +27,3 @@ which will output Rank-1, Rank-5, Rank-10 and mAP scores.
 
 ## Citation
 =======
-# Deep-Meta-Metric-Learning
-code for ICCV19 paper "Deep Meta Metric Learning"
