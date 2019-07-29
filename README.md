@@ -10,7 +10,9 @@ To install all python packages, please run the following command:
 ```
 pip install -r requirements.txt
 ```
-
+## Datasets
+Market1501
+--
 ## Usage
 ### Training
 After adding dataset directory in `demo.sh`, simply run the following command to train DMML on Market-1501:
