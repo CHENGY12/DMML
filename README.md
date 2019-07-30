@@ -11,7 +11,8 @@ To install all python packages, please run the following command:
 pip install -r requirements.txt
 ```
 ## Datasets
-Market1501
+- Market-1501 dataset can be downloaded from [here](http://www.liangzheng.org/Project/project_reid.html).
+- DukeMTMC-reID dataset can be downloaded from [here](http://vision.cs.duke.edu/DukeMTMC/).
 --
 ## Usage
 ### Training
