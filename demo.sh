@@ -1,6 +1,6 @@
 python train.py \
 --dataset='market1501' \
---dataset_root='<DATASET_ROOT>' \
+--dataset_root='./datasets/market1501' \
 --exp_root='./exp/dmml/market1501' \
 --lr=2e-4 \
 --num_epochs=1200 \
