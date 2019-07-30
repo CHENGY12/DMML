@@ -11,8 +11,21 @@ To install all python packages, please run the following command:
 pip install -r requirements.txt
 ```
 ## Datasets
+### Downloading
 - Market-1501 dataset can be downloaded from [here](http://www.liangzheng.org/Project/project_reid.html).
 - DukeMTMC-reID dataset can be downloaded from [here](http://vision.cs.duke.edu/DukeMTMC/).
+### Preparation
+After downloading the datasets above, move them to the `datasets/` folder in the project root directory, and rename dataset folders to 'market1501' and 'duke' respectively. I.e., the `datasets/` folder should be organized as:
+```
+|-- market1501
+    |-- bounding_box_train
+    |-- bounding_box_test
+    |-- ...
+|-- duke
+    |-- bounding_box_train
+    |-- bounding_box_test
+    |-- ...
+```
 
 ## Usage
 ### Training
